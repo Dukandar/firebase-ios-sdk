@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     s.default_subspecs = 'AdIdSupport'
 
     s.subspec 'AdIdSupport' do |ss|
-        ss.dependency 'GoogleAppMeasurement/WithoutAdIdSupport', '10.24.0'
+        ss.dependency 'GoogleAppMeasurement/WithoutAdIdSupport'
         ss.vendored_frameworks = 'Frameworks/GoogleAppMeasurementIdentitySupport.xcframework'
     end
 
