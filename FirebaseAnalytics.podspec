@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'WithoutAdIdSupport' do |ss|
-        ss.dependency 'GoogleAppMeasurement/WithoutAdIdSupport', '10.24.0'
+        ss.dependency 'GoogleAppMeasurement/WithoutAdIdSupport'
         ss.vendored_frameworks = 'Frameworks/FirebaseAnalytics.xcframework'
     end
 
