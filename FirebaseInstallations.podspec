@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
   osx_deployment_target = '10.13'
   tvos_deployment_target = '12.0'
   watchos_deployment_target = '6.0'
+  vision_deployment_target = '1.0'
+
 
   s.swift_version = '5.3'
 
@@ -28,6 +30,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = osx_deployment_target
   s.tvos.deployment_target = tvos_deployment_target
   s.watchos.deployment_target = watchos_deployment_target
+  s.visionos.deployment_target  = vision_deployment_target
 
   s.cocoapods_version = '>= 1.12.0'
   s.prefix_header_file = false
